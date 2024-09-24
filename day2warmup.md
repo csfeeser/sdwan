@@ -1,6 +1,14 @@
 
 # **Warmup: Network Namespaces and VETH!**
 
+<img src="https://umdcareers.wordpress.com/wp-content/uploads/2015/11/networking-meme.jpg" alt="image" width="300"/>
+
+Welcome to your **Warmup Challenge**! Your mission is to:
+
+1. Create two network namespaces: `zelda` and `ganondorf`.
+2. Establish a virtual Ethernet (VETH) connection between the two namespaces.
+3. Ensure they can communicate with each other using `ping`.
+
 ```
 +-----------------------+       +-----------------------+
 |    Namespace: zelda    |      |  Namespace: ganondorf |
@@ -16,11 +24,7 @@
      +---------------------------------------------+
 ```
 
-Welcome to your **Warmup Challenge**! Your mission is to:
-
-1. Create two network namespaces: `zelda` and `ganondorf`.
-2. Establish a virtual Ethernet (VETH) connection between the two namespaces.
-3. Ensure they can communicate with each other using `ping`.
+> Use this diagram as your building guide!
 
 ### The Goal
 
