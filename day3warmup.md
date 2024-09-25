@@ -51,7 +51,7 @@ Welcome to your **Warmup Challenge!** There’s a twist in this one: your job is
 
 4. When you want to reset the lab (or are finished and are ready to clean up) run the following command:
 
-    `student@bchd:~$` `wget -q -O day3warmupteardown.sh https://raw.githubusercontent.com/csfeeser/sdwan/refs/heads/main/scripts/day3warmupteardown.sh && bash day3warmupteardown.sh`
+    `student@bchd:~$` `wget -q -O teardown.sh https://raw.githubusercontent.com/csfeeser/sdwan/refs/heads/main/scripts/day3teardownnew.sh && bash teardown.sh`
 
 ### 👀 Hints/Solutions
 
